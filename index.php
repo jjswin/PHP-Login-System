@@ -1,10 +1,13 @@
 <?php 
 
-// ALLOW THE CONFIG 
-define('__CONFIG__',TRUE);
+    // ALLOW THE CONFIG 
+    define('__CONFIG__',TRUE);
+    //REQUIRE THE CONFIG
+    require_once "inc/config.php"; 
 
-//FEQUIRE THE CONFIG
-require_once "inc/config.php"; ?>
+    
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
