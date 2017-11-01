@@ -3,8 +3,11 @@
 // ALLOW THE CONFIG 
 define('__CONFIG__',TRUE);
 
-//FEQUIRE THE CONFIG
-require_once "inc/config.php"; ?>
+//REQUIRE THE CONFIG
+require_once "inc/config.php";
+
+ForceDashboard();
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -24,7 +27,8 @@ require_once "inc/config.php"; ?>
 
   	<div class="uk-section uk-container">
   		<div class="uk-grid uk-child-width-1-3@s uk-child-width-1-1" uk-grid>
-			<form class="uk-form-stacked js-register">
+			
+            <form class="uk-form-stacked js-register">
 
                 <h2> Register </h2>
 

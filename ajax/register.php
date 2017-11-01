@@ -8,6 +8,7 @@ require_once "../inc/config.php";
 // require_once "../inc/classes/Filter.php"; 
 
 
+
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
   
    // header('Content-Type: application/json');

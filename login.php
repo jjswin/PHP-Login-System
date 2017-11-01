@@ -4,7 +4,13 @@
 define('__CONFIG__',TRUE);
 
 //FEQUIRE THE CONFIG
-require_once "inc/config.php"; ?>
+require_once "inc/config.php"; 
+
+ForceDashboard();
+
+?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -40,11 +46,15 @@ require_once "inc/config.php"; ?>
 			        <div class="uk-form-controls">
 			            <input class="uk-input" id="form-stacked-text" type="password" required='required' placeholder="Your Password">
 			        </div>
-			    </div>
+			    </div>		
 
 			    <div class="uk-margin">
 			        <button class="uk-button uk-button-default" type="submit">Login</button>
 			    </div>
+
+				<div class="uk-margin uk-alert uk-alert-danger js-error" style= "display:none">
+                test 
+                </div>
 
 			</form>
   		</div>
